@@ -5,12 +5,14 @@ import './App.css'
 
 import InnerApp from './InnerApp'
 import StateManagement from './StateManagement'
+import ToggleMessage from './ToggleMessage'
 
 function App() {
   return (
     <>
       <InnerApp name="Diegao" />
       <StateManagement/>
+      <ToggleMessage/>
     </>
   )
 }
